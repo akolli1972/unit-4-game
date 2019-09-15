@@ -1,0 +1,19 @@
+#buttons {
+    padding: 0px;
+    width: 500px;
+    height: 500px;
+}
+
+#extraSpacing {
+    padding: 15px;
+}
+
+#background {
+    fill-opacity: inherit;
+    /* color: blueviolet; */
+}
+
+#top {
+    padding: 50px;
+    /* color: blue; */
+}
