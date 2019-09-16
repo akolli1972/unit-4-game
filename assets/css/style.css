@@ -26,9 +26,7 @@
     position: relative;
     top: -400px;
 }
-.body{
-    
-}
+
 .container {
     padding: 20px;
     position:top;
@@ -37,6 +35,6 @@
 }
 .text-center{
     font-size: 20px;
-    color: purple;
+    color:red;
     font-style: italic;
 }
