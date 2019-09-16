@@ -9,16 +9,14 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="assests/css/reset.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="assests/css/style.css">
+        <link rel="stylesheet" href="assets/css/style.css">
 
    
     </head>
-    <body background="assests/images/background4.jpg" id="background">
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <body background="assets/images/background2.jpeg" id="background">
+        
 
         <div class = "container" id= "top">
             <div class="jumbotron jumbotron-fluid">
@@ -30,7 +28,7 @@
                       Below are 4 crystals you will use to add up to the random number.
                       In every game the value of each crystal changes and you will have to 
                       figure out their values on your own by clicking on them. Challenge yourself
-                      to this game.
+                      to this game and have fun! Game resets after a win or a loss.
                   </p>
                 </div>
             </div>
@@ -41,17 +39,17 @@
 
             <div class = "row">
                 <div class="col-md-12 text-center" id="buttons">
-                    <button id="button-blue" value="0"><img src="assests/images/skyblue_crystal.jpeg" width= "100px" class="img-responsive icons" id="icon1"></button>
-                    <button id="button-yellow" value="0"><img src="assests/images/yellow_crystal.jpeg" width= "100px" class="img-responsive icons" id="icon2"></button>
-                    <button id="button-purple" value="0"><img src="assests/images/purple_crystal.jpeg" width= "100px" class="img-responsive icons" id="icon3"></button>
-                    <button id="button-red" value="0"><img src="assests/images/red_crystal.jpg" width= "100px" class="img-responsive icons" id="icon4"></button>
+                    <button id="button-blue" value="0"><img src="assets/images/yellow_crystal.jpg" width= "100px" class="img-responsive icons" id="icon1"></button>
+                    <button id="button-yellow" value="0"><img src="assets/images/skyblue_crystal.jpeg" width= "100px" class="img-responsive icons" id="icon2"></button>
+                    <button id="button-purple" value="0"><img src="assets/images/red_crystal.jpg" width= "100px" class="img-responsive icons" id="icon3"></button>
+                    <button id="button-red" value="0"><img src="assets/images/purple_crystal.jpg" width= "100px" class="img-responsive icons" id="icon4"></button>
                 </div>
             </div>
 
             <div class="row" id="extraSpacing">
                 <div class="col-md-12"></div>
             </div>
-
+            <section class="up">
             <div class = "row">
                 <div class="col-md-6" id="matchNumber">
                     <h3 class="text-center" id="random">Match Number:</h3>
@@ -81,12 +79,13 @@
                 <div class="col-md-3"></div>
     
             </div>
+            </section>
 
         </div>
         
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-        <script type="text/javascript" src="assests/javascript/game.js"></script>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
         
     </body>
 </html>
